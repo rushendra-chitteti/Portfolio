@@ -2,7 +2,7 @@ body
 {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f9f9f9;
+  background-text: #f9f9f9;
   color: #333;
   scroll-behavior: smooth;
 }
@@ -142,6 +142,12 @@ section
   margin-bottom: 40px;
 }
 
+section:hover 
+{
+  box-shadow: 2px 8px 20px rgb(74, 20, 253);
+  background-color: gray;
+  color: white;
+}
 h2 
 {
   font-size: 36px;
